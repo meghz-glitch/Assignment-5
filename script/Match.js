@@ -76,3 +76,5 @@ function checkMatch() {
 
         restartButton.addEventListener('click', startGame);
         startGame();
+
+        console.log('Card generated:', card);
