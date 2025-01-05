@@ -77,5 +77,3 @@ function checkMatch() {
 
 restartButton.addEventListener('click', startGame);
 startGame();
-console.log("Initializing game...");
-console.log("Shuffled card values:", shuffledValues);
