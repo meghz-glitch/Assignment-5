@@ -2,7 +2,7 @@ const gameBoard = document.getElementById('gameBoard');
 const statusMessage = document.getElementById('statusMessage');
 const restartButton = document.getElementById('restartButton');
 
-let cardValues = ['🍎', '🍊', '🍋', '🍉', '🍇', '🍓', '🍒', '🥝'];
+let cardValues = ['🍋','🍇','🍎','🥝','🍊','🍓','🍉','🍒'];
 cardValues = [...cardValues, ...cardValues];
 
 let moves = 0;
