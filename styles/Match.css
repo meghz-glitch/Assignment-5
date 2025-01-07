@@ -89,14 +89,35 @@ button {
     cursor: pointer;
 }
 
-@media (max-width: 600px) {
-    .grid {
-        grid-template-columns: repeat(3, 70px);
-        grid-template-rows: repeat(4, 70px);
+@media (max-width: 768px) {
+    .contact-content {
+        padding: 1em;
     }
-    .card {
-        width: 70px;
-        height: 70px;
-        font-size: 5rem;
-    }
+}
+
+.form-group input,
+.form-group textarea {
+    font-size: 0.9em;
+    padding: 0.6em;
+}
+
+.form-group label {
+    font-size: 0.9em;
+}
+
+.go-button label {
+    font-size: 0.9em;
+}
+
+.go-button {
+    font-size: 1em;
+    padding: 0.6em 1.5em;
+}
+
+.contact-content {
+    max-width: 90%;
+}
+
+textarea {
+    height: 100px;
 }
